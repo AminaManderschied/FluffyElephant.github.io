@@ -1,0 +1,62 @@
+
+
+.Schwedentraum {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./forest.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+}
+
+h1 {
+  font-family: 'Cormorant', serif;
+  font-size: 100px;
+  align-items: center;
+}
+
+h2 {
+  font-family: 'Cormorant', serif;
+  font-size: 40px;
+  align-items: flex-start;
+}
+
+.winter_text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-left: 10px;
+
+}
+
+.winter_bilder {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+
+}
+
+h3 {
+  font-family: 'Cormorant', serif;
+  font-size: 40px;
+  align-items: flex-start;
+}
+
+.spring_images {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+
+}
+
+.spring_text {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-right: 10px;
+  margin-left: 288px;
+
+}
