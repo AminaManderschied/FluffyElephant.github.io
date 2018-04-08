@@ -1,9 +1,31 @@
+.Menu {
+  font-family: 'Cormorant', serif;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
+
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  color: #000000;
+  margin-left: 20px;
+  margin-right: 20px;
+}
 
 .Schwedentraum {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
   background-image: url("./forest.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -59,4 +81,9 @@ h3 {
   margin-right: 10px;
   margin-left: 288px;
 
+}
+
+.profileround {
+  max-width: 278px;
+  max-height: 278px;
 }
