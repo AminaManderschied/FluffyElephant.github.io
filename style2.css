@@ -19,6 +19,7 @@ a {
   margin-left: 20px;
   margin-right: 20px;
   font-size: 35px;
+  opacity: 1;
 
 }
 
@@ -62,6 +63,11 @@ h2 {
 
 }
 
+.winterunder1 {
+  max-width: 278px;
+  max-height: 278px;
+}
+
 h3 {
   font-family: 'Cormorant', serif;
   font-size: 40px;
@@ -101,5 +107,55 @@ h4 {
 p {
   font-family: 'Cormorant', serif;
   font-size: 20px;
+
+}
+
+.summer_text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+
+.summerimage {
+  max-width: 278px;
+  max-height: 278px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.contacttraum {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-flow: wrap;
+  background-image: url("./forest.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+  opacity: 0.5;
+}
+
+.menucontact {
+  font-family: 'Cormorant', serif;
+  font-size: 30px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 700px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 
 }
