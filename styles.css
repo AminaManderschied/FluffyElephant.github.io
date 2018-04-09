@@ -1,7 +1,8 @@
 body {
   width: 100vw;
   height: 100vh;
-}body {
+}
+body {
   background: linear-gradient(to right, #BAA7B0, #B2ABBF, #B1B5C8, #BFD5E2, #C7EBF0);
   background-repeat: repeat;
 }
