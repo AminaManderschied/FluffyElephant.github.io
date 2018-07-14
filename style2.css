@@ -5,7 +5,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 .title {
@@ -20,7 +19,6 @@ a {
   margin-right: 20px;
   font-size: 35px;
   opacity: 1;
-
 }
 
 .Schwedentraum {
@@ -47,12 +45,26 @@ h2 {
   align-items: flex-start;
 }
 
+h2:hover {
+  font-family: 'Cormorant', serif;
+  font-size: 40px;
+  align-items: flex-start;
+  opacity: 0.5;
+}
+
 .winter_text {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
   margin-left: 10px;
+}
 
+.h2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-left: 10px;
+  opacity: 0.5;
 }
 
 .winter_bilder {
@@ -60,12 +72,7 @@ h2 {
   flex-direction: row;
   align-items: stretch;
   justify-content: center;
-
-}
-
-.winterunder1 {
-  max-width: 278px;
-  max-height: 278px;
+  margin-top: 30px;
 }
 
 h3 {
@@ -74,27 +81,49 @@ h3 {
   align-items: flex-start;
 }
 
+h3:hover {
+  font-family: 'Cormorant', serif;
+  font-size: 40px;
+  align-items: flex-start;
+  opacity: 0.5;
+}
+
 h4 {
   font-family: 'Cormorant', serif;
   font-size: 40px;
   text-align: center;
 }
 
+h4:hover {
+  font-family: 'Cormorant', serif;
+  font-size: 40px;
+  text-align: center;
+  opacity: 0.5;
+}
+
+.spring_section {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+
 .spring_images {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-end;
-
+  margin-right: 292px;
 }
+
 
 .spring_text {
   display: flex;
   align-items: flex-end;
-  justify-content: space-between;
-  margin-right: 10px;
-  margin-left: 288px;
-
+  justify-content: flex-end;
+  margin-right: 5px;
+  margin-bottom: 10px;
 }
 
 .profileround {
@@ -107,7 +136,6 @@ h4 {
 p {
   font-family: 'Cormorant', serif;
   font-size: 20px;
-
 }
 
 .summer_text {
@@ -133,7 +161,6 @@ p {
   justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
-  flex-flow: wrap;
   background-image: url("./forest.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -145,17 +172,18 @@ p {
   font-family: 'Cormorant', serif;
   font-size: 30px;
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  margin-bottom: 700px;
+  align-items: center;
+  justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
+  margin-bottom: 300px;
 }
 
 .social {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
-
+  flex-wrap: nowrap;
+  flex-direction: row;
+  margin-top: 50px;
 }
